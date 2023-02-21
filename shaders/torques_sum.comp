@@ -1,0 +1,45 @@
+#version 440
+
+layout (local_size_x = 1024, local_size_y = 1, local_size_z = 1) in;
+
+layout (std430, binding = 8) buffer torques{
+    vec4 torque[];
+};
+
+// layout (std430, binding = 20) buffer auxiliar{
+// 	vec4 aux[];
+// };
+
+uniform int max_vertices_per_boat;
+uniform int max_boats;
+uniform int pow_e;
+
+int idx = int(gl_GlobalInvocationID.x); // + pow(2,10) * gl_GlobalInvocationID.y);
+//int pow_e = int(gl_NumWorkGroups.x * gl_NumWorkGroups.y);
+
+void main(){
+    
+    int idx_step = max_vertices_per_boat / pow_e; 
+
+    int idx_step_ = idx_step / 2; 
+    
+    // aux[0].x = float(pow_e);
+    
+    // aux[0].y = float(idx_step);
+
+    // aux[0].z = float(idx);
+    if(idx_step * idx + idx_step_ < max_vertices_per_boat){
+        torque[idx_step * idx] += torque[idx_step * idx + idx_step_];
+        torque[idx_step * idx + idx_step_] = vec4(0);
+    }
+    /* for (int i = 0; i < force.length(); i++){
+        total_force += force[i];
+    }
+    */
+    // for (int i = 1; i < torque.length(); i++){
+    //     torque[0] += torque[i];
+    //     torque[i] = vec4(0);
+    // } 
+
+    
+}

@@ -1,0 +1,40 @@
+#version 440
+
+layout (local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+layout (std430, binding = 0) buffer vertices{
+	vec4 vertex[];
+};
+
+layout (std430, binding = 7) buffer boat_length{
+	float boat_len;
+};
+
+layout (std430, binding = 8) buffer auxiliar{
+    vec3 aux;
+};
+
+
+void main(){
+    float xmin = vertex[0].x;
+    float xmax = vertex[0].x;
+    float zmin = vertex[0].z;
+    float zmax = vertex[0].z;
+
+    for (int i = 0; i < vertex.length(); i+=3){
+        vec3 A = vertex[i].xyz;
+        vec3 B = vertex[i+1].xyz;
+        vec3 C = vertex[i+2].xyz;
+        if(A != vec3(0.0) || B != vec3(0.0) || C != vec3(0.0)){
+            xmin = min(xmin, min(A.x, min(B.x, C.x)));
+            xmax = max(xmax, max(A.x, max(B.x, C.x)));
+            zmin = min(zmin, min(A.x, min(B.x, C.x)));
+            zmax = max(zmax, max(A.x, max(B.x, C.x)));
+        }
+    }
+
+    float x_len = xmax - xmin;
+    float z_len = zmax - zmin;
+
+    boat_len = max(x_len, z_len);
+}

@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/Bruna/Desktop/TESE/toolkits/VSL/VSL/CMakeLists.txt
+  vsFontLib.cpp
+  vsGLInfoLib.cpp
+  vsGeometryLib.cpp
+  vsLogLib.cpp
+  vsMathLib.cpp
+C:\Users\Bruna\Desktop\TESE\toolkits\VSL\VSL\source\vsMathLib.cpp(888,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bruna\Desktop\TESE\toolkits\VSL\VSL\source\vsMathLib.cpp(920,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  vsModelLib.cpp
+  vsProfileLib.cpp
+C:\Users\Bruna\Desktop\TESE\toolkits\VSL\VSL\source\vsProfileLib.cpp(336,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  vsResourceLib.cpp
+  vsShaderLib.cpp
+  vsSurfRevLib.cpp
+  Generating Code...
+  vsl.vcxproj -> C:\Users\Bruna\Desktop\TESE\CPU_implementation\build5\VSL\Debug\vsld.lib

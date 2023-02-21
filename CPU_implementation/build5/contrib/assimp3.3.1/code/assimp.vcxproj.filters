@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFExporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\glTFExporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bruna\Desktop\TESE\toolkits\VSL\contrib\assimp3.3.1\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{F86A2B63-11C6-3299-9626-FB6EEAEDDCFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{3DE67A49-704B-3916-BF16-71F9B4887F06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{8C983FB4-14FA-308B-98A3-73563F9BF8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{7DC82F3F-A91F-3C92-8749-2E71F4957232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{A0C348C1-F6AE-334A-BD01-2ABA43128B40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{8E06B093-03B6-3EFE-B29F-D8AC8A35EAE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{96531912-28ED-3E6C-BD04-197593054AA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{BBC0DDE0-3344-33B7-8EB6-107144A2BE12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{4B137138-F3F8-39BB-A9F8-841B5C4597F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{E7F145ED-24C0-35FE-A7A8-AFA1225FECBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{4F0EBFBA-68D4-3ECB-8BC4-4592FF13909E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{EF28D564-0928-3972-9B81-EA5CC5238081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{580535B9-C212-318D-B1FF-FF6B0C4CB8B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{1A133C09-6518-357E-84AD-4477134E853D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{751A9A1E-9D0A-3B1F-93AA-106919921F13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{971DFC05-D1DB-34F2-9E95-6127E399EA11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{BF6765AA-A37B-38F9-B96A-E5D06077CB8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{EF90E7CD-8489-3744-82AB-8D3D0FDE264A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{3E4EC0C8-56FF-398F-AC15-EE8B9816CB1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{6B97F150-918A-38BA-9819-DD3BA68F03A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{42CF6C2F-72E1-3644-8269-6BEBB3B833D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{A6FDFE0F-D316-33B0-8D36-0B97EBC33328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1E93E0F8-7C30-3BF4-AC46-52D7442792A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{4EA7EBD3-F7A6-3894-ADA0-C4A4BA4AE48A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{575ED31B-75A9-311F-A9CD-B5356B1DCB41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{8C0166C6-35D7-3E49-B38D-0F649AB041CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{85BBE44A-6D62-37E4-AF31-B020F5F67EE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{FF003877-B5E5-3839-A343-1BC5CF05DF19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{26F27FD5-B49E-3827-B4DF-E7BABD381D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{7126F991-6ABD-332D-84F3-5F3CD7A122E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{20CEE539-BFB6-39DE-896D-4285B72669C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{CE6BC03B-9819-3998-B0D4-416C602AA243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{A4C83151-385D-3151-9ABC-F3D7C50D298E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{C0F8893D-F153-31DD-B15B-019BA8BF859D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{7E4A9E72-E985-3D34-8DFE-322AEDBF88E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{BCE7A2DA-516F-3E81-9F6D-A0128D4CFB1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{FD91AE6F-B7E3-3D7C-88B4-63ECF579CB96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{68F758F5-B280-33C1-ABED-1868B4160EF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{C466C5E4-9548-3B31-B73B-1948C628BD4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{F2BE2C17-FEB3-32B9-9F42-9181E65921D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{14FFC67B-1A80-3AAF-8032-A3784068DC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{5C2C1188-DCCB-38DC-82D1-DC3350D99845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{221D9172-958B-3B5F-9B0A-8684B5C78143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{06C5191E-481C-360A-A549-B4445A14AE2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{AA06623C-04D6-35A0-B8C1-5FAEF3E7B58A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{76EB7840-B2D4-33AE-99AA-74BEE17AFAD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{23E50FBE-045D-3A75-94C3-DAF30B48BB86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{C12E5DD1-0FFC-3ED5-B932-D7E3B35788BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{694EEB6B-BE7B-3AF9-BEC9-D8B6D313CA61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{C9520C68-B1EF-3A9A-A46D-4B28E076669C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{DACD471B-4B28-3BD4-84E5-DAA025C566C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{7BE794A8-2990-376C-95B9-759C9FEBB00F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06306B6A-D654-34B4-BFFB-0C91A1A4AAD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{B1FE5583-92DF-3C8A-848D-A33DFFE209D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{03E6BCBC-493B-3ED5-82F5-036E8532EFC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{D85CB10B-8E84-3D2A-8DF3-1492EC200FA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{96419EBF-72B8-3EF3-8435-297201D43A7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{128E259A-5AEC-3F50-B442-74E5E45EDA2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{5DAD57BE-1D0D-39F1-A337-19924090E2CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

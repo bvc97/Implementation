@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+C:/Users/Bruna/Desktop/TESE/toolkits/VSL/contrib/freeglut-3.0.0/CMakeLists.txt
+C:/Users/Bruna/Desktop/TESE/toolkits/VSL/contrib/freeglut-3.0.0/config.h.in
+C:/Users/Bruna/Desktop/TESE/toolkits/VSL/contrib/freeglut-3.0.0/freeglut.pc.in
+C:/Users/Bruna/Desktop/TESE/toolkits/VSL/contrib/freeglut-3.0.0/freeglut.rc.in
+C:/Users/Bruna/Desktop/TESE/toolkits/VSL/contrib/freeglut-3.0.0/src/fg_version.h.in

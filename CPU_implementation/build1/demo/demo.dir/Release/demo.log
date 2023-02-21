@@ -1,0 +1,4 @@
+﻿  main.cpp
+..\..\source_final_cpu\main.cpp(201,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     Creating library C:/Users/Bruna/Desktop/TESE/CPU_implementation/build1/demo/Release/demo.lib and object C:/Users/Bruna/Desktop/TESE/CPU_implementation/build1/demo/Release/demo.exp
+  demo.vcxproj -> C:\Users\Bruna\Desktop\TESE\CPU_implementation\build1\bin\demo.exe

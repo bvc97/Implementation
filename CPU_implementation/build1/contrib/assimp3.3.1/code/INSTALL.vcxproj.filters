@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bruna\Desktop\TESE\CPU_implementation\build1\CMakeFiles\a35e0ce3e8abda7ae7079dd770295fda\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{44857B29-7753-3478-9456-F101D3834385}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

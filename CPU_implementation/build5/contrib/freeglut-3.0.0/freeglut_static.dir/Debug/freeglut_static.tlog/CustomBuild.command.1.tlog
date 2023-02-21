@@ -1,0 +1,10 @@
+^C:\USERS\BRUNA\DESKTOP\TESE\TOOLKITS\VSL\CONTRIB\FREEGLUT-3.0.0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Bruna/Desktop/TESE/toolkits/VSL -BC:/Users/Bruna/Desktop/TESE/CPU_implementation/build5 --check-stamp-file C:/Users/Bruna/Desktop/TESE/CPU_implementation/build5/contrib/freeglut-3.0.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

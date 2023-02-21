@@ -1,0 +1,18 @@
+#version 440
+
+layout (local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+layout (std430, binding = 2) buffer forces{
+    vec4 force[];
+};
+
+layout (std430, binding = 8) buffer torques{
+    vec4 torque[];
+};
+
+int idx = int(gl_GlobalInvocationID.x + pow(2,10) * gl_GlobalInvocationID.y);
+
+void main(){
+    force[idx] = vec4(0);
+    torque[idx] = vec4(0);
+}
