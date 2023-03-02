@@ -9,5 +9,6 @@ Faced with the problem of few literature about this type of simulation, the obje
 
 The implementation was done in CPU with OpenGL and in GPU with shaders. The models are made in Blender.
 The folder CPU_implementation contains 2 builds where build1 is the CPU implementation and build5 is the GPU implementation.
+The folders shaders and shaders_ contain the shaders with the non-instantiated rendering and the instantiated rendering which is done in the main and main_ files, respectively. 
 
 This project was made on Microsoft Visual Studio.
