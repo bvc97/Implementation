@@ -1,4 +1,8 @@
-﻿  main.cpp
+﻿  Boat.cpp
+..\..\source\Boat.cpp(31,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  calculos.cpp
+..\..\source\calculos.cpp(24,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  main.cpp
 ..\..\source\main.cpp(27,53): warning C4305: 'initializing': truncation from 'double' to 'float'
 ..\..\source\main.cpp(29,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 ..\..\source\main.cpp(30,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -15,5 +19,6 @@
 ..\..\source\main.cpp(425,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 ..\..\source\main.cpp(617,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
 ..\..\source\main.cpp(617,20): message : consider using '%zd' in the format string
+  Generating Code...
      Creating library C:/Users/Bruna/Desktop/TESE/CPU_implementation/build5/demo/Release/demo.lib and object C:/Users/Bruna/Desktop/TESE/CPU_implementation/build5/demo/Release/demo.exp
   demo.vcxproj -> C:\Users\Bruna\Desktop\TESE\CPU_implementation\build5\bin\demo.exe
