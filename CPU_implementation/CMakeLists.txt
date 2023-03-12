@@ -5,9 +5,7 @@ PROJECT(CPU_implementation)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
-add_executable(${PROJECT_NAME} source/main.cpp source/algorithm.cpp source/calculos.cpp source/drawings.cpp source/forces.cpp 
-source/transformations.cpp source/triangles.cpp source/algorithm.h source/calculos.h source/drawings.h source/forces.h 
-source/transformations.h source/triangles.h source/structs.h)
+add_executable(${PROJECT_NAME} source/main.cpp source/calculos.cpp source/Boat.cpp source/calculos.h source/structs.h source/Boat.h source/config.h)
 
 find_package(OpenGL REQUIRED)
 include_directories(${OpenGL_INCLUDE_DIRS})
