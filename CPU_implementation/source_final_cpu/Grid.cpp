@@ -14,7 +14,7 @@ vec2 scale_vec2(TYPE t, vec2 a) {
 
 // Default Constructor //
 Grid::Grid(TYPE timer) {
-	TYPE A = 0.2, w = 0.8, phi = 1, Q = 0;
+	TYPE A = 0.0, w = 0.8, phi = 1, Q = 0;
 	TYPE q = Q / (w * A);
 	vec2 D = { 0,1 }, p;
 	for (int x = 0; x < x_size; x++) {

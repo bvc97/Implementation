@@ -47,14 +47,16 @@ VSFontLib vsfl;
 
 GLuint fbo;
 GLuint texFBO[2];
-GLuint vertices, colors, boat_length, forces, position, velocity, angular_velocity, angular_position, boats_inv_inertia, boats_mass, boats_ATotal, boats_length, torque, total_forces, total_torques, auxiliar;
+GLuint vertices, colors, forces, position, velocity, angular_velocity, angular_position, boats_inv_inertia, boats_mass, boats_ATotal, boats_length, torque, auxiliar;
 
 vec4 m_data2[256];
 
 int windowWidth, windowHeight;
 
-size_t max_vertices_per_boat = 1 << 17;
+size_t max_vertices_per_boat = 1 << 15;
 size_t max_boats = 1 << 6;
+float ATotal = 0;
+float b_length = 0;
 
 unsigned int aSentence, profileSentence;
 
@@ -106,6 +108,28 @@ float total_area(vector<triangle> ts) {
     }
 
     return res;
+}
+
+float boat_length(vector<triangle> ts) {
+    float xmin = ts[0].A.x;
+    float xmax = ts[0].A.x;
+    float zmin = ts[0].A.z;
+    float zmax = ts[0].A.z;
+
+    for (triangle t : ts) {
+        vec3 A = t.A;
+        vec3 B = t.B;
+        vec3 C = t.C;
+        xmin = min(xmin, min(A.x, min(B.x, C.x)));
+        xmax = max(xmax, max(A.x, max(B.x, C.x)));
+        zmin = min(zmin, min(A.z, min(B.z, C.z)));
+        zmax = max(zmax, max(A.z, max(B.z, C.z)));
+    }
+
+    float x_len = xmax - xmin;
+    float z_len = zmax - zmin;
+
+    return max(x_len, z_len);
 }
 
 void changeSize(int w, int h) {
@@ -588,7 +612,7 @@ GLuint prepareFBO(int w, int h, int colorCount) {
 
 int init() {
     
-    if (model.load("../../../models/boat2_complex_1.obj") 
+    if (model.load("../../../models/boat4_complex.obj") 
         && myPlane.load("../../../models/grid_64.obj")
         && grid.load("../../../models/grid_64.obj")) {
 
@@ -614,6 +638,8 @@ int init() {
                 }
 
             }
+            ATotal = total_area(b.triangles);
+            b_length = boat_length(b.triangles);
             printf("%d\n", b.triangles.size());
         }
         
@@ -707,7 +733,6 @@ GLuint setupShaders() {
     //    float pos_x = ((float)rand()/(float)RAND_MAX) * 32 - 16;
     //    float pos_z = ((float)rand()/(float)RAND_MAX) * 32 - 16;
     //    boats[i].setPos({ pos_x,0, pos_z });
-    //    //boats[i].length = boats[i].boat_length();
     //}
 
     for (int i = 0; i < NUM_BOATS; i++) {
@@ -749,10 +774,11 @@ GLuint setupShaders() {
         boat_inv_inertia_aux[i * 16 + 15] = 0;
 
         boats_mass_aux[i] = boats[i].mass;
-        boats_ATotal_aux[i] = total_area(boats[i].triangles);
+        boats[i].setATotal(ATotal);
+        boats_ATotal_aux[i] = boats[i].ATotal;
+        boats[i].setLength(b_length);
         boats_length_aux[i] = boats[i].length;
     }
-    
     
     glGenBuffers(1, &position);
     glBindBuffer(GL_SHADER_STORAGE_BUFFER, position);
@@ -819,10 +845,10 @@ GLuint setupShaders() {
     VSGLInfoLib::getUniformsInfo(waves.getProgramIndex());
 
     // add sampler uniforms
-    waves.setUniform("A", 0.5f); //0.8f
+    waves.setUniform("A", 1.0f); //0.8f //0.2f
     waves.setUniform("Q", 0.0f);
-    waves.setUniform("w", 0.8f); //0.8f //2.0f
-    waves.setUniform("phi", 1.0f);
+    waves.setUniform("w", 0.5f); //0.8f //2.0f
+    waves.setUniform("phi", 0.2f); //1.0f
     waves.setUniform("timer", old_time);
 
     NTYPE d[2] = { 0.0f, 1.0f };
@@ -1037,15 +1063,14 @@ int main(int argc, char** argv) {
 
     initVSL();
 
-    if (!setupShaders())
-        exit(1);
-    
-    
     // init OpenGL and load model
     if (!init()) {
         printf("Could not Load the Model\n");
         exit(1);
     }
+
+    if (!setupShaders())
+        exit(1);
 
     glutMainLoop();
 

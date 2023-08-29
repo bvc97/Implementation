@@ -47,7 +47,7 @@ VSFontLib vsfl;
 
 GLuint fbo;
 GLuint texFBO[2];
-GLuint vertices, colors, boat_length, forces, position, velocity, angular_velocity, angular_position, boats_inv_inertia, boats_mass, boats_ATotal, boats_length, torque, total_forces, total_torques, auxiliar;
+GLuint vertices, colors, forces, position, velocity, angular_velocity, angular_position, boats_inv_inertia, boats_mass, boats_ATotal, boats_length, torque, auxiliar;
 
 vec4 m_data2[256];
 

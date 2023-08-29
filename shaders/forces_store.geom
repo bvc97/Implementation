@@ -225,15 +225,15 @@ vec3 viscous_water_resistance(vec3 A, vec3 B, vec3 C, float Cf){
 
 	vec3 n = normal(A, B, C);
 
-	float w_magnitude = sqrt(pow(triangle_velocity(A, B, C).x, 2) + pow(triangle_velocity(A, B, C).y, 2) + pow(triangle_velocity(A, B, C).z, 2));
+	float w_magnitude = norm(triangle_velocity(A, B, C));
 
-	float n_magnitude = sqrt(pow(n.x, 2) + pow(n.y, 2) + pow(n.z, 2));
+	float n_magnitude = norm(n);
 
 	float m = (n_magnitude == 0) ? 1.0 : 1.0/n_magnitude;
 
 	vec3 v_tangent = m * cross(normal(A, B, C), m * cross(triangle_velocity(A, B, C), normal(A, B, C)));
 
-	float v_tangent_magnitude = sqrt(pow(v_tangent.x, 2) + pow(v_tangent.y, 2) + pow(v_tangent.z, 2));
+	float v_tangent_magnitude = norm(v_tangent);
 
 	float m_vel = (v_tangent_magnitude == 0.0) ? 1.0 : 1.0/v_tangent_magnitude;
 
@@ -241,7 +241,7 @@ vec3 viscous_water_resistance(vec3 A, vec3 B, vec3 C, float Cf){
 
 	vec3 v_f = w_magnitude * tangential_dir;
 
-	float v_f_magnitude = sqrt(pow(v_f.x, 2) + pow(v_f.y, 2) + pow(v_f.z, 2));
+	float v_f_magnitude = norm(v_f);
 
 	vec3 viscous_force = 0.5 * DENS * Cf * area(A, B, C) * v_f_magnitude * v_f;
 	

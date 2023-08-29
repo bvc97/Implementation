@@ -31,7 +31,8 @@ public:
     //Constructor
 	Boat();
     void setPos(vec3 position);
-    float boat_length();
+    void setATotal(float areaT);
+    void setLength(float b_length);
 };
 
 #endif
